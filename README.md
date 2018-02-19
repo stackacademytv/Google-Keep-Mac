@@ -2,7 +2,7 @@
 
 A very unofficial Google Keep desktop app (Electron) for MacOS.
 
-## [Download the latest release]()
+## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.0.0/GoogleKeep-v1.0.dmg)
 
 ![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
 
