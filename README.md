@@ -2,7 +2,7 @@
 
 A very unofficial Google Keep desktop app (Electron) for MacOS.
 
-## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.0.0/GoogleKeep-v1.0.dmg)
+## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.1.1/Google.Keep-1.1.0.dmg)
 
 ![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
 
@@ -10,10 +10,8 @@ This is essentially the web app version of Google Keep, with a couple convenienc
 
 - Persistent window sate
 - Native app menu
+- Native context menus
 
-TODO:
-
-- Store exact session state. ie. last opened note
 
 ***Any feature requests welcome!***
 
