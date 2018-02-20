@@ -71,6 +71,16 @@ const template = [
   }
 ]
 
+// Context menu for static text selection
+module.exports.selectionMenu = Menu.buildFromTemplate([
+    {role: 'copy'},
+    {type: 'separator'},
+    {role: 'selectall'},
+  ])
+
+// Context menu for editable fields
+module.exports.inputMenu = Menu.buildFromTemplate(template[1].submenu)
+
 // Menu template object
 module.exports.create = () => {
   Menu.setApplicationMenu( Menu.buildFromTemplate(template) )
