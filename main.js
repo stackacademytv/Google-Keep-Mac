@@ -1,5 +1,5 @@
 // Modules
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, shell} = require('electron')
 const windowStateKeeper = require('electron-window-state')
 const appMenu = require('./menu')
 const fs = require('fs')
@@ -44,6 +44,26 @@ app.on('ready', () => {
 
     // Emitted when the window is closed.
     win.on('closed', () => win = null )
+})
+
+// Open url externally if not "keep.google.com"
+const openExternal = (e, url) => {
+  if ( !url.includes('keep.google.com') ) {
+    e.preventDefault()
+    shell.openExternal(url)
+  }
+}
+
+// Listen for web contents being rendered
+app.on('web-contents-created', (e, contents) => {
+
+  // Check for webview (keep.google.com)
+  if (contents.getType() == 'webview') {
+
+    // Listen for any navigation or new window events
+    contents.on('will-navigate', openExternal)
+    contents.on('new-window', openExternal)
+  }
 })
 
 // Quit when all windows are closed.

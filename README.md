@@ -1,16 +1,14 @@
 # Google Keep for MacOS
 
-A very unofficial Google Keep desktop app (Electron) for MacOS.
-
-## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.2.0/Google.Keep-1.2.0.dmg)
-
-![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
-
-This is essentially the web app version of Google Keep, with a couple conveniences added:
+A very unofficial **Google Keep** desktop app for MacOS.
 
 - Persistent window sate
 - Native app menu and context menus
-- Full spelling and grammer support with autocorrect in context menus
+- Full spelling and grammer support
+
+## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.2.1/Google.Keep-1.2.1.dmg)
+
+![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
 
 ***Any feature requests welcome!***
 
