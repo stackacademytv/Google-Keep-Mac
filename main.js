@@ -2,6 +2,7 @@
 const {app, BrowserWindow} = require('electron')
 const windowStateKeeper = require('electron-window-state')
 const appMenu = require('./menu')
+const fs = require('fs')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -10,7 +11,6 @@ let win
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 app.on('ready', () => {
-
 
     // Add main menu to app
     appMenu.create()
@@ -34,23 +34,8 @@ app.on('ready', () => {
     // Open the DevTools.
     // win.webContents.openDevTools()
 
-    // Create context menus
-    win.webContents.on('context-menu', (e, props) => {
-
-      // Context properties
-      const { selectionText, isEditable } = props
-
-      // Any element that is editable
-      if (isEditable) appMenu.inputMenu.popup(win)
-
-      // Static content e.g. Text
-      else if (selectionText && selectionText.trim() !== '')
-        appMenu.selectionMenu.popup(win)
-
-    })
-
     // and load the index.html of the app.
-    win.loadURL('https://keep.google.com/u/0/#home')
+    win.loadURL(`file://${__dirname}/index.html`)
 
     // Let us register listeners on the window, so we can update the state
     // automatically (the listeners will be removed when the window is closed)

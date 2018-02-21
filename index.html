@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Keep</title>
+    <style media="screen">
+      html, body, webview {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        background: url('icon.png') center center no-repeat;
+        background-size: 177.5px;
+      }
+    </style>
+  </head>
+  <body>
+    <webview id="google-keep-view" src="https://keep.google.com/u/0/#home" preload="./preload.js" ></webview>
+  </body>
+</html>

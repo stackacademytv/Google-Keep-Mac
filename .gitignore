@@ -1,8 +1,7 @@
-# Mac
-.DS_Store
 
-# Dist
+.DS_Store
 dist/
+private/
 
 # Logs
 logs
@@ -62,4 +61,3 @@ typings/
 
 # dotenv environment variables file
 .env
-

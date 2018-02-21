@@ -1,7 +1,7 @@
 {
   "name": "google-keep",
   "productName": "Google Keep",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A very unofficial Google Keep desktop app (Electron) for MacOS.",
   "main": "main.js",
   "scripts": {
@@ -9,7 +9,11 @@
     "build": "electron-builder -m"
   },
   "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": ["Electron", "Google Keep", "MacOS"],
+  "keywords": [
+    "Electron",
+    "Google Keep",
+    "MacOS"
+  ],
   "author": "Ray Viljoen <ray@stackacademy.tv>",
   "license": "MIT",
   "build": {
@@ -30,6 +34,7 @@
     "electron-builder": "^20.0.6"
   },
   "dependencies": {
+    "electron-spellchecker": "^1.1.2",
     "electron-window-state": "^4.1.1"
   }
 }
