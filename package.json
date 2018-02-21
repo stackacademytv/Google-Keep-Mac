@@ -1,7 +1,7 @@
 {
   "name": "google-keep",
   "productName": "Google Keep",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A very unofficial Google Keep desktop app (Electron) for MacOS.",
   "main": "main.js",
   "scripts": {
