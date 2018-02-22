@@ -8,7 +8,7 @@ A very unofficial **Google Keep** desktop app for MacOS.
 
 ## [Download the latest release](https://github.com/stackacademytv/Google-Keep-Mac/releases/download/v1.2.2/Google.Keep-1.2.2.dmg)
 
-![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
+![Google Keep App Screenshot](screenshots/screenshot_1.png "Google Keep App Screenshot")
 
 ***Any feature requests welcome!***
 
