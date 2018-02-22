@@ -10,6 +10,4 @@ A very unofficial **Google Keep** desktop app for MacOS.
 
 ![Google Keep App Screenshot](screenshot.png "Google Keep App Screenshot")
 
-***Any feature requests welcome!***
-
 ### If you're interested in learning to develop Electron Applications for Mac, Windows and Linux, be sure to [check out my Electron Course](https://www.udemy.com/master-electron/?couponCode=ELECTRON_GH). *(Coupon already applied)*
